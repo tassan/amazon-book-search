@@ -2,9 +2,10 @@ require 'rubygems'
 require 'selenium-webdriver'
 
 driver = Selenium::WebDriver.for :chrome
+home_amazon = HomePage.new
 
 Given(/^I am on Amazon search page$/) do
-    driver.get "http://amazon.com.br"
+    driver.get home_amazon.url
   end
   
   When(/^I search for "([^"]*)"$/) do |string|
