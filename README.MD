@@ -13,7 +13,7 @@ So you might wanna have the requirementes installed on your machine to use it.
 ### Install the Requirements
 1. Install Ruby
 2. Install Cucumber
-3. Install the Chromedriver
+3. Install Chromedriver
 
 ### Create a Directory and clone the repository
 1. `mkdir amazon-book-search`
@@ -22,5 +22,5 @@ So you might wanna have the requirementes installed on your machine to use it.
 
 ### Open the terminal and run it
 1. In the root of the project use `bundle`
-2. The run `cucumber`
+2. Then run `cucumber`
 3. *voilà*
