@@ -13,6 +13,7 @@ So you might wanna have the requirementes installed on your machine to use it.
 ### Install the Requirements
 1. Install Ruby
 2. Install Cucumber
+3. Install the Chromedriver
 
 ### Create a Directory and clone the repository
 1. `mkdir amazon-book-search`
