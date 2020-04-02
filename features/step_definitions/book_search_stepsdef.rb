@@ -3,7 +3,7 @@ require 'selenium-webdriver'
 
 home_amazon = HomePage.new
 
-Given(/^I am on Amazon search page$/) do
+Given("I am on |site|amazon.com.br| search page") do
     home_amazon.load
   end
   
